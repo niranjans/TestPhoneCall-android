@@ -38,6 +38,7 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View arg0) {
  
+				// Adding a new comment in this feature branch
 				Intent callIntent = new Intent(Intent.ACTION_CALL);
 				callIntent.setData(Uri.parse("tel:0377778888"));
 				startActivity(callIntent);
